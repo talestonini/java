@@ -50,4 +50,8 @@ public class Num2Lcd {
         }
         return sb.toString();
     }
+
+    public static void main(String[] args) {
+        System.out.println(Num2Lcd.num2Lcd(1234567890));
+    }
 }
